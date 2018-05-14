@@ -7,14 +7,16 @@
     <link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
     <link rel="me" href="mailto:mangerovskii@gmail.com">
     <link rel="me" href="sms:+15035550125">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Aleksander Mangierowski - Resume</title>
 </head>
 
 <body>
-    <div class="container bg-light border border-gray my-5">
+    <div class="container bg-light my-5 content">
         <header>
             <div class="row pt-3">
                 <div class="col-6 mx-auto col-md-3 mx-md-0">
@@ -73,7 +75,7 @@
                     <div class="text-left">
                         <div class="h2">Résumé</div>
 
-                        <div>
+                        <div class="intro">
                             — Hello! I'm a beginner web developer. I like what I do, because I work in the field of advanced technologies, making this
                             world better. Here I can constantly improve, gaining new knowledge and strengthening the acquired skills.
                         </div>
@@ -89,35 +91,60 @@
                     <ul class="list-unstyled p-0 m-0">
                         <li class="mt-4">
                             <div class="font-italic date">2018 - present time</div>
-                            <div class="event">web developer at Qwerty.Software</div>
+                            <div class="event">
+                                <span class="position">web developer</span> at 
+                                <a href="https://qwerty.software/">Qwerty.Software</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">2017 - 2018</div>
-                            <div class="event">web developer at Zengineers</div>
+                            <div class="event">
+                                <span class="position">web developer</span> at 
+                                <a href="http://zengineers.company/">Zengineers</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">2013 - 2015</div>
-                            <div class="event">studying at the ITSTEP</div>
+                            <div class="event">
+                                <span class="position">student</span> at the 
+                                <a href="https://itstep.zp.ua/">ITSTEP</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">2011-2013</div>
-                            <div class="event">study at the Dnipro National Metallurgical Academy of Ukraine on the specialty Heat Power Engineering</div>
+                            <div class="event">
+                                <span class="position">Bachelor's degree</span> in 
+                                <span class="position">Heat Power Engineering</span> at 
+                                <a href="https://nmetau.edu.ua/ua">The National Metallurgical Academy of Ukraine</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">2005 - 2012</div>
-                            <div class="event">"Internal Engineering Networks" - private entrepreneur</div>
+                            <div class="event">
+                                <span class="position">private entrepreneur</span> 
+                                at "Internal Engineering Networks"
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">2004 - 2005</div>
-                            <div class="event">work at the metallurgical plant ZaporizhSteel</div>
+                            <div class="event">
+                                <span class="position">employee</span> at the metallurgical plant 
+                                <a href="http://www.zaporizhstal.com/uk/">Zaporizhstal</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">1999 - 2004</div>
-                            <div class="event">studying at the Zaporizhzhian State Engineering Academy on the specialty Metallurgical equipment</div>
+                            <div class="event">
+                                <span class="position">Bachelor's degree</span> in 
+                                <span class="position">Metallurgical quipment</span> at 
+                                <a href="http://www.zgia.zp.ua/">Zaporizhzhia State Engineering Academy</a>
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">1997</div>
-                            <div class="event">won the Ukrainian Drafts Championship among the Cadets</div>
+                            <div class="event">
+                                <span class="position">Winner</span> in the Ukrainian Drafts Championship among the Cadets
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">1996</div>
@@ -125,7 +152,9 @@
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">1989 - 1999</div>
-                            <div class="event">studying at school. Graduated with honors - gold medal</div>
+                            <div class="event">
+                                <span class="position">student</span> at school. Graduated with honors - gold medal
+                            </div>
                         </li>
                         <li class="mt-4">
                             <div class="font-italic date">1982</div>
@@ -135,19 +164,19 @@
                 </div>
 
                 <div class="col-12 col-md-5">
-                    <div class="h2 mt-5 mt-md-0">LANGUAGES</div>
-                    <ul class="list-unstyled d-flex p-0 m-0">
-                        <li class="ml-2"><span class="small">UA</span> УКРАЇНСЬКА</li>
-                        <li class="ml-2"><span class="small">RU</span> РУССКИЙ</li>
-                        <li class="ml-2"><span class="small">EN</span> ENGLISH</li>
+                    <div class="h3 mt-5 mt-md-0">LANGUAGES</div>
+                    <ul class="list-unstyled d-flex flex-wrap p-0 m-0 languages">
+                        <li class="mr-2"><a href=""><span class="small">UA</span><span class="lang">УКРАЇНСЬКА</span></a></li>
+                        <li class="mr-2"><a href=""><span class="small">RU</span><span class="lang">РУССКИЙ</span></a></li>
+                        <li><span class="small">EN</span><span class="lang">ENGLISH</span></li>
                     </ul>
 
-                    <div class="h2 mt-5">SKILLS</div>
+                    <div class="h3 mt-5">SKILLS</div>
                     <div>
                         HTML CSS SCSS JS JQUERY REACT REDUX PHP LARAVEL GULP
                     </div>
 
-                    <div class="h2 mt-5">LIKES😃</div>
+                    <div class="h3 mt-5">LIKES 😃</div>
                     <div>
                         FAMILY, FRIENDS, A HEALTHY LIFESTYLE, JOURNEYS
                     </div>
