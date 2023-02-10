@@ -21,14 +21,20 @@ body {
     text-transform: capitalize;
 }
 
-.languages a:hover {
-    text-decoration: none;
-}
-
-a:hover .lang {
-    text-decoration: underline;
+.description {
+    text-align: justify;
 }
 
 .lang {
     margin-left: .25em;
+}
+
+.skills {
+    line-height: 2;
+}
+
+.badge {
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #ddd;
 }
